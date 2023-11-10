@@ -1,0 +1,29 @@
+.form{
+    margin-top: 4rem;
+}
+.text, .textarea, .checkboxContainer{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+
+.textarea{
+    height: 12vw;
+}
+.checkboxContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid red;
+    gap: .5rem 3rem;
+    justify-content: start;
+align-content: start;}
+
+.checkbox{
+     
+}
+.label{
+    border: 2px solid green;
+    justify-content: start;
+    
+}
