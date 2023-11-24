@@ -6,7 +6,7 @@
 }
 
 .text, .textarea, .checkboxContainer{
-    min-width: 30vw;
+    min-width: 35vw;
     display: block;
     padding: 10px;
     margin-block: .8rem 2rem;
