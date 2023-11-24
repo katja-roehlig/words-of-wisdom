@@ -1,29 +1,42 @@
 .form{
     margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+   min-width: 40vw;
 }
+
 .text, .textarea, .checkboxContainer{
-    width: 100%;
+    min-width: 30vw;
     display: block;
     padding: 10px;
-    margin-bottom: 2rem;
+    margin-block: .8rem 2rem;
 }
 
 .textarea{
     height: 12vw;
 }
-.checkboxContainer{
+
+.categories{
+margin-bottom: .8rem;;
+}
+/* .checkboxContainer{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 2px solid red;
     gap: .5rem 3rem;
-    justify-content: start;
-align-content: start;}
+    justify-items: start;
+    align-items: start;} */
 
-.checkbox{
-     
-}
 .label{
-    border: 2px solid green;
-    justify-content: start;
-    
+   width: 100%
 }
+
+.btnCreate{
+    background-color: #290450e6;
+    color: #f8f0d9;
+    text-transform: uppercase; 
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    box-shadow: 0px 2px 4px #29045040;
+    margin: 2rem auto;}
